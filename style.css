@@ -1,0 +1,94 @@
+body{
+  background-color: turquoise;
+}
+
+h1{
+  color: darkgreen;
+  font-size: 70px;
+  width: 100%;
+  font-family: Stencil;
+  letter-spacing:0.2em;
+  text-align: center;
+  display: block;
+  background-color: lightgreen;
+}
+
+h2{
+	font-family: Stencil;
+	font-size: 40px;
+	color: darkgreen;
+	display: block;
+    background-color: lightgreen;
+}
+
+p{
+  color: darkgreen;
+  font-size: 28px;
+  font-family: Kristen ITC;
+}
+
+h3{
+  font-family: san-serif;
+  font-size: 40px;
+  color: orange;
+}
+
+h4{
+  color: darkgreen;
+  font-size: 30px;
+  font-family: Kristen ITC;
+}
+
+.list{
+  color: darkgreen;
+  font-size: 28px;
+  font-family: Kristen ITC;
+}
+
+.table{
+  color: orange;
+}
+
+#banner{
+  background-image: url("https://www.bracknell-forest.gov.uk/sites/default/files/tennis-header-image.jpg");
+  background-size: cover;
+  background-position: bottom center;
+  height: 400px;
+  width: 100%;
+}
+
+#banner .content h1 {
+  border: solid 3px white;
+  position: relative;
+  top: 50px;
+  width: 400px;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+
+.links{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.links a {
+  background-color: darkgreen;
+  border-radius: 3px;
+  color: lightgreen;
+  font-family: century gothic;
+  font-size: 30px;
+  font-weight: 300;
+  display: inline-block;
+  margin: 10px;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+
+.card:hover {
+  background-color: orange;
+  color: orange;
+  clear: left;
+}
